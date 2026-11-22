@@ -1,0 +1,4 @@
+case,username,password,expectCode,expectMsg
+正确账号密码,admin,123456,1,登录成功
+错误密码,admin,1234567,-1,用户名或密码错误
+不存在的用户,not_exist_user,123456,-1,用户名或密码错误
